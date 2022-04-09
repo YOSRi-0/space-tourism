@@ -1,0 +1,32 @@
+export const primaryFont = "'Bellefair', serif";
+
+export const secondaryFont = "'Barlow Condensed', sans-serif";
+
+export const tertieryFont = "'Barlow', serif";
+
+export const typeScale = {
+  900: 'clamp(5rem, 8vw + 1rem, 9.375rem)',
+  small: {
+    800: '3.5rem',
+    700: '1.5rem',
+    600: '1rem',
+    500: '1rem',
+    400: '0.9375rem',
+    300: '1rem',
+    200: '0.875rem',
+  },
+  medium: {
+    800: '5rem',
+    700: '2.5rem',
+    600: '1.5rem',
+    500: '1.25rem',
+    400: '1rem',
+  },
+  large: {
+    800: '6.25rem',
+    700: '3.5rem',
+    600: '2rem',
+    500: '1.75rem',
+    400: '1.125rem',
+  },
+};
