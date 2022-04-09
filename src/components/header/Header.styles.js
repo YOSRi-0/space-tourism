@@ -9,6 +9,7 @@ export const NavEl = styled.nav`
 `;
 
 export const LogoContainer = styled.div`
+  z-index: 1000;
   margin: 1.5rem clamp(1.5rem, 5vw, 3.5rem);
   }
 `;

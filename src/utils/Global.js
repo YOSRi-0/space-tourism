@@ -47,6 +47,11 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
   }
 
+  #root {
+    height: 100%;
+    width: 100%;
+  }
+
   @media (prefers-reduced-motion: reduce) {  
     *,
     *::before,

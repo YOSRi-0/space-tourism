@@ -16,11 +16,16 @@ import Header from './components/header/Header';
 import { Paragraph } from './components/paragraph/Paragraph';
 import { defaultTheme } from './utils';
 import { GlobalStyle } from './utils/Global';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/home/Home';
 
 function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <Header />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+      </Routes>
       {/* <div>
         <Paragraph>
           Don’t forget to pack your hiking boots. You’ll need them to tackle

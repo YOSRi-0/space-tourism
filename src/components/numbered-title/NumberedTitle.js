@@ -18,7 +18,7 @@ export const NumberedTitle = styled.h3`
     font-size: ${typeScale.medium[500]};
   }
 
-  @media (min-width: 45em) {
+  @media (min-width: 48em) {
     font-size: ${typeScale.large[500]};
   }
 `;

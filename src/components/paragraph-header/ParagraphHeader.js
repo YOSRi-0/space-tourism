@@ -15,7 +15,7 @@ export const PrimaryParagraphHeader = styled.h2`
     font-size: ${typeScale.medium[800]};
   }
 
-  @media (min-width: 45em) {
+  @media (min-width: 48em) {
     font-size: ${typeScale.large[800]};
   }
 
@@ -32,7 +32,7 @@ export const SecondaryParagraphHeader = styled.h2`
     font-size: ${typeScale.medium[700]};
   }
 
-  @media (min-width: 45em) {
+  @media (min-width: 48em) {
     font-size: ${typeScale.large[700]};
     text-align: left;
   }
@@ -47,7 +47,7 @@ export const SecondaryParagraphHeader = styled.h2`
       font-size: ${typeScale.medium[600]};
     }
 
-    @media (min-width: 45em) {
+    @media (min-width: 48em) {
       font-size: ${typeScale.large[600]};
     }
 `;

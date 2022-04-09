@@ -36,6 +36,8 @@ export const MainButton = styled.a`
   aspect-ratio: 1;
   cursor: pointer;
   position: relative;
+  margin-top: 5rem;
+  text-transform: uppercase;
 
   &:after {
     content: '';
@@ -52,6 +54,14 @@ export const MainButton = styled.a`
   &:focus:after {
     opacity: 1;
     transform: scale(1.5);
+  }
+
+  @media (min-width: 35em) {
+    margin-top: 6rem;
+  }
+
+  @media (min-width: 48em) {
+    margin-top: 0;
   }
 `;
 
@@ -147,7 +157,7 @@ export const SliderButton = styled.a`
     height: 60px;
   }
 
-  @media (min-width: 45em) {
+  @media (min-width: 48em) {
     font-size: ${typeScale.large[600]};
     width: 80px;
     height: 80px;
