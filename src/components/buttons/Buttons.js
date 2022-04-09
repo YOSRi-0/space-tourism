@@ -61,7 +61,6 @@ export const NavLink = styled.li`
   font-family: ${secondaryFont};
   text-transform: uppercase;
   letter-spacing: 2.36px;
-  padding: 0.5rem 0;
 
   &.active {
     border: 0;
@@ -69,15 +68,19 @@ export const NavLink = styled.li`
 
   & a {
     color: hsl(${(props) => props.theme.tertieryColor});
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem 0;
+
+    @media (min-width: 35em) {
+      padding: 2rem clamp(0.5rem, 2vw, 3rem);
+    }
 
     & span {
       font-weight: 700;
       margin-right: 0.5em;
     }
-  }
-
-  @media (min-width: 35em) {
-    padding: 2rem clamp(0.5rem, 2vw, 3rem);
   }
 `;
 

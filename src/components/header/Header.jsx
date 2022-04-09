@@ -25,7 +25,7 @@ const Header = () => {
       />
       <NavList active={active}>
         <NavLink>
-          <Link to="/home">
+          <Link to="/">
             <span>00</span>home
           </Link>
         </NavLink>

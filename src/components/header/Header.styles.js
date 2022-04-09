@@ -78,8 +78,12 @@ export const NavList = styled.ul`
 export const Line = styled.div`
   position: absolute;
   top: 50%;
-  right: 55%;
+  right: 50%;
   height: 1px;
   width: 35%;
   background-color: hsl(${(props) => props.theme.tertieryColor}, 0.25);
+
+  @media (max-width: 45em) {
+    display: none;
+  }
 `;
